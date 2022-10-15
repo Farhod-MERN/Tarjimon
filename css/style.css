@@ -438,6 +438,14 @@ i.fas.fa-exchange-alt {
   .hidden {
     display: none;
   }
+  .img-Border {
+    width: 200px !important;
+    /* margin-left: 20px; */
+  }
+  .about__img-inner{
+    width: 200px !important;
+    margin-left: 40px !important;
+  }
 }
 
 /* 1200dan 768gacha planshet uchun */
