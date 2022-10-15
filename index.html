@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Tarjomon</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/all.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Font Awesome for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+
+<body>
+  <div class="outer">
+    <div class="inner">
+      <button class="btnClose">❌</button>
+      <span class="links">
+        <span><a class="first active" href="#">Tarjimon</a></span>
+        <span class="link hidden"><a class="second" href="#">💻Code</a></span>
+        <span><a class="third" href="#">Dasturchi</a></span>
+      </span>
+    </div>
+
+    <div class="title">
+      <button class="btnOpen">🔷</button>
+      <span>
+        <h3>Tezkor, qulay, bepul tarjimon</h3>
+      </span>
+    </div>
+
+    <div class="container">
+      <section class="tarjimon">
+        <div class="wrapper">
+          <div class="text-input">
+            <textarea spellcheck="false" class="from-text first" placeholder="So'zni kiriting..."></textarea>
+            <textarea spellcheck="false" readonly disabled class="to-text second"
+              placeholder="So'zning ma'nosi..."></textarea>
+          </div>
+          <ul class="controls">
+            <li class="row from">
+              <div class="icons">
+                <i id="from" class="fas fa-volume-up"></i>
+                <i id="from" class="fas fa-copy"></i>
+              </div>
+              <select></select>
+            </li>
+            <li class="exchange"><i class="fas fa-exchange-alt"></i></li>
+            <li class="row to">
+              <select></select>
+              <div class="icons">
+                <i id="to" class="fas fa-volume-up"></i>
+                <i id="to" class="fas fa-copy"></i>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <button class="tarjima">Tarjima Qil</button>
+      </section>
+
+      <section class="code">
+        <div class="container"></div>
+      </section>
+
+      <section class="about">
+        <div class="about__img">
+          <div class="about__img-inner">
+            <img class="img-Border" src="img/farhod.jpg" alt="">
+          </div>
+          <a href="#" class="btn btn-primary">
+            <i class="fa-solid fa-cloud-arrow-down"></i> Download Resume
+          </a>
+        </div>
+        <div class="about__content">
+          <h1 class="section-title">About me</h1>
+          <p class="about__content-text">Hello! I’m Farhod Shuhratovich. Web Developer with over 8 years of
+            experience. Experienced with all stages of the development cycle for dynamic web projects.
+            Having an in-depth knowledge including advanced HTML5, CSS3, JavaScript, jQuery, Angular JS,
+            React JS, Node JS. Strong background in management and leadership.</p>
+          <ul class="about__content-personal personal">
+            <li class="personal__item">
+              <span class="name">NAME: </span> Farhod Shuhratovich
+            </li>
+            <li class="personal__item">
+              <span class="name">Date of birth: </span> 16 July 2001
+            </li>
+            <li class="personal__item">
+              <span class="name">Nationality: </span> Citizen of Uzbekistan
+            </li>
+            <li class="personal__item">
+              <span class="name">Address: </span> 26/94 A.Navoiy Ferghana city
+            </li>
+            <li class="personal__item">
+              <span class="name">Phone: </span> +998 91 151 34 12
+            </li>
+            <li class="personal__item">
+              <span class="name">Email: </span> Mrfarhod58@gmail.com
+            </li>
+          </ul>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <script src="js/countries.js"></script>
+  <script src="js/script.js"></script>
+
+</body>
+
+</html>
