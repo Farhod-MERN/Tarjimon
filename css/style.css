@@ -451,6 +451,17 @@ i.fas.fa-exchange-alt {
   margin: 0;
 }
 
+.controls .row select {
+  color: #333;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background: none;
+  padding-left: 10px;
+  width: 100px;
+  margin-left: -20px;
+}
+
 }
 
 /* 1200dan 768gacha planshet uchun */
