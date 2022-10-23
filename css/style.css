@@ -60,7 +60,7 @@ body {
   cursor: pointer;
 }
 .title span {
-  background-color: #385ef7;
+  background-color: #267CB5;
   width: 100%;
   height: 60px;
   padding-left: 20px;
@@ -241,7 +241,7 @@ li,
   font-size: 18px;
   font-weight: 600;
   border-radius: 5px;
-  background: #0635f2;
+  background: #267CB5;
   color: rgb(255, 251, 251);
   /* background: #5372F0; */
 }
