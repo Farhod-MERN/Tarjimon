@@ -464,6 +464,15 @@ i.fas.fa-exchange-alt {
 }
 
 }
+.img{
+  width: 50px;
+  margin-top:5px;
+}
+.img2
+{
+  margin-top: 23px;
+  margin-left: 5px;
+}
 
 /* 1200dan 768gacha planshet uchun */
 @media (max-width: 1199px) {
@@ -652,4 +661,15 @@ i.fas.fa-exchange-alt {
     -webkit-animation: space-plane 1s;
             animation: space-plane 1s;
   }
+  
+.img2{
+  width: 40px;
+  margin-top:14px;
+}
+.img3
+{
+  width: 40px;
+  margin-top: 3px;
+  margin-left: 5px;
+}
 }/*# sourceMappingURL=main.css.map */
